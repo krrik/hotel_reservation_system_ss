@@ -28,10 +28,13 @@ h2 {
 
 .left {
   text-align: center;
-  letter-spacing: .10px;
-  
-  
-  
+  letter-spacing: .5px;
+}
+
+.footer {
+  margin-top: 25px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
 }
 
 @import "bootstrap-sprockets";
