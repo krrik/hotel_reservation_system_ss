@@ -1,28 +1,23 @@
-== README
+testing specs for reservations:
+checkin: datetime
+checkout: datetime
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- checkin must be present
+- checkin must have a datetime picker with correct date format yyyy-mm-dd hh:mm:ss
+- checkout must be present
+- checkout must have a datetime picker with correct date format yyyy-mm-dd hh:mm:ss
+- customer_id must be present
+- room_id must be present
 
-Things you may want to cover:
+testing specs for customers:
+customername: string
+phone: string
+email: string
+address: string
 
-* Ruby version
+- customername should be present
+- customername should be between 3 characters and less than 40 characters
+- email must be present
+- email must be unique (since we'll use this for logins later)
+- email must be valid
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
